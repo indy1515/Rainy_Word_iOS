@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ClientListViewController.h"
+//#import "ClientListViewController.h"
 
-@interface ModeViewController : UIViewController <ClientListViewControllerDelegate>
+#import "ConnectionsViewController.h"
+
+/*@interface ModeViewController : UIViewController <ClientListViewControllerDelegate,ConnectionsViewControllerDelegate> */
+
+@interface ModeViewController : UIViewController <ConnectionsViewControllerDelegate>
+
 @property (weak, nonatomic) IBOutlet UILabel *modeLabel;
 @property (weak, nonatomic) IBOutlet UIButton *easyBtn;
 @property (weak, nonatomic) IBOutlet UIButton *intBtn;

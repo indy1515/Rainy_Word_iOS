@@ -43,7 +43,7 @@
 
 - (void) onClickEasyButton:(UIGestureRecognizer *) recognizer{
     NSLog(@"Easy button click");
-    [self toClientList:Nil ];
+    [self toConnectionsController:Nil ];
 
 }
 - (void) onClickIntermediateButton:(UIGestureRecognizer *) recognizer{
@@ -55,10 +55,22 @@
 -(void) onClickCrazyButton:(UIGestureRecognizer *) recognizer{
     NSLog(@"Crazy Button click");
 }
-- (void)toClientList:(UIGestureRecognizer *)recognizer {
+
+/* - (void)toClientList:(UIGestureRecognizer *)recognizer {
     ClientListViewController *VC2 = [self.storyboard instantiateViewControllerWithIdentifier:@"ClientListViewController"];
     VC2.delegate = self;
 //    VC2.parentViewControllerType = [[ViewControllerType alloc] initWithType:MAIN_VIEW_CONTROLLER extra:VIEW_CONTROLLER_TYPE_EXTRA_BUSSTOP];
+    [self presentViewController:VC2 animated:NO completion:^{
+        //  [loadingView startAnimating];
+        NSLog(@"Presenting Search View Controller");
+    }];
+} */
+
+
+- (void)toConnectionsController:(UIGestureRecognizer *)recognizer {
+    ConnectionsViewController *VC2 = [self.storyboard instantiateViewControllerWithIdentifier:@"ConnectionsViewController"];
+    VC2.delegate = self;
+    //    VC2.parentViewControllerType = [[ViewControllerType alloc] initWithType:MAIN_VIEW_CONTROLLER extra:VIEW_CONTROLLER_TYPE_EXTRA_BUSSTOP];
     [self presentViewController:VC2 animated:NO completion:^{
         //  [loadingView startAnimating];
         NSLog(@"Presenting Search View Controller");

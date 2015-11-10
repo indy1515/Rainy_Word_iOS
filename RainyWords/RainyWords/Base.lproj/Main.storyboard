@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
@@ -89,6 +89,10 @@
                                                 <exclude reference="MNo-Zp-ZhC"/>
                                             </mask>
                                             <mask key="constraints">
+                                                <exclude reference="4YH-LC-BhY"/>
+                                                <exclude reference="G8M-by-4y1"/>
+                                                <exclude reference="a5r-kw-iKs"/>
+                                                <exclude reference="fcU-9c-P6b"/>
                                                 <exclude reference="0eO-Fo-T70"/>
                                                 <exclude reference="AOk-fz-7hJ"/>
                                                 <exclude reference="b1W-7i-yFC"/>
@@ -97,10 +101,6 @@
                                                 <exclude reference="ACX-lE-OJT"/>
                                                 <exclude reference="Hyr-b9-8cx"/>
                                                 <exclude reference="yY9-fD-RfK"/>
-                                                <exclude reference="4YH-LC-BhY"/>
-                                                <exclude reference="G8M-by-4y1"/>
-                                                <exclude reference="a5r-kw-iKs"/>
-                                                <exclude reference="fcU-9c-P6b"/>
                                             </mask>
                                         </variation>
                                         <variation key="heightClass=regular-widthClass=compact">
@@ -111,6 +111,10 @@
                                                 <include reference="MNo-Zp-ZhC"/>
                                             </mask>
                                             <mask key="constraints">
+                                                <include reference="4YH-LC-BhY"/>
+                                                <include reference="G8M-by-4y1"/>
+                                                <include reference="a5r-kw-iKs"/>
+                                                <include reference="fcU-9c-P6b"/>
                                                 <include reference="0eO-Fo-T70"/>
                                                 <include reference="AOk-fz-7hJ"/>
                                                 <include reference="b1W-7i-yFC"/>
@@ -119,10 +123,6 @@
                                                 <include reference="ACX-lE-OJT"/>
                                                 <include reference="Hyr-b9-8cx"/>
                                                 <include reference="yY9-fD-RfK"/>
-                                                <include reference="4YH-LC-BhY"/>
-                                                <include reference="G8M-by-4y1"/>
-                                                <include reference="a5r-kw-iKs"/>
-                                                <include reference="fcU-9c-P6b"/>
                                             </mask>
                                         </variation>
                                     </view>
@@ -213,7 +213,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Awl-p6-yGD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="54" y="336"/>
+            <point key="canvasLocation" x="18" y="341.25"/>
         </scene>
         <!--Name-->
         <scene sceneID="Oa1-Y4-W2H">
@@ -313,8 +313,6 @@
                                     </mask>
                                     <mask key="constraints">
                                         <exclude reference="KH2-54-5dA"/>
-                                        <exclude reference="2Pl-34-vHU"/>
-                                        <exclude reference="Wyz-gG-YKd"/>
                                         <exclude reference="7SF-Q1-XAI"/>
                                         <exclude reference="dUG-7j-DkS"/>
                                         <exclude reference="hV3-6Q-DwE"/>
@@ -323,6 +321,8 @@
                                         <exclude reference="ccr-cu-gAO"/>
                                         <exclude reference="oaJ-eS-yAq"/>
                                         <exclude reference="tCE-Qr-rI8"/>
+                                        <exclude reference="2Pl-34-vHU"/>
+                                        <exclude reference="Wyz-gG-YKd"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
@@ -333,8 +333,6 @@
                                     </mask>
                                     <mask key="constraints">
                                         <include reference="KH2-54-5dA"/>
-                                        <include reference="2Pl-34-vHU"/>
-                                        <include reference="Wyz-gG-YKd"/>
                                         <include reference="7SF-Q1-XAI"/>
                                         <include reference="dUG-7j-DkS"/>
                                         <include reference="hV3-6Q-DwE"/>
@@ -343,6 +341,8 @@
                                         <include reference="ccr-cu-gAO"/>
                                         <include reference="oaJ-eS-yAq"/>
                                         <include reference="tCE-Qr-rI8"/>
+                                        <include reference="2Pl-34-vHU"/>
+                                        <include reference="Wyz-gG-YKd"/>
                                     </mask>
                                 </variation>
                             </view>
@@ -418,6 +418,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YlY-Fq-1NR" id="dhh-wN-iJD">
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <animations/>
                                         </tableViewCellContentView>
@@ -474,6 +475,124 @@
                 </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="865.5" y="353.25"/>
+        </scene>
+        <!--Connections View Controller-->
+        <scene sceneID="aN7-ZX-j4v">
+            <objects>
+                <viewController storyboardIdentifier="ConnectionsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9M3-16-BH4" customClass="ConnectionsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5CL-T8-c8C"/>
+                        <viewControllerLayoutGuide type="bottom" id="T33-Yu-1Me"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rDG-RH-BzU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="The device name displayed to others…" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZjF-VL-hJ8">
+                                <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="20" width="360" height="30"/>
+                                </variation>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visible to others?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9xP-Tb-qXk">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="63" width="212" height="26"/>
+                                </variation>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IJV-t8-hfp">
+                                <rect key="frame" x="-25" y="-15" width="51" height="31"/>
+                                <animations/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="331" y="58" width="51" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="toggleVisibility:" destination="9M3-16-BH4" eventType="valueChanged" id="0vr-ey-GNo"/>
+                                </connections>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vB8-lO-aac">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="15"/>
+                                <state key="normal" title="Browse for devices"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="127" y="91" width="147" height="39"/>
+                                </variation>
+                                <connections>
+                                    <action selector="browseForDevices:" destination="9M3-16-BH4" eventType="touchUpInside" id="OvJ-nR-poB"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="aXO-iD-tdC">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="138" width="400" height="510"/>
+                                </variation>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZEI-u6-Q7w" userLabel="Random">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" image="rwa_random"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="40" y="699" width="320" height="90"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EM9-F5-4pO">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="15"/>
+                                <state key="normal" title="Disconnect"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="152" y="661" width="96" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="disconnect:" destination="9M3-16-BH4" eventType="touchUpInside" id="fQq-YE-fHN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="ZjF-VL-hJ8"/>
+                                <exclude reference="9xP-Tb-qXk"/>
+                                <exclude reference="IJV-t8-hfp"/>
+                                <exclude reference="vB8-lO-aac"/>
+                                <exclude reference="aXO-iD-tdC"/>
+                                <exclude reference="ZEI-u6-Q7w"/>
+                                <exclude reference="EM9-F5-4pO"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="ZjF-VL-hJ8"/>
+                                <include reference="9xP-Tb-qXk"/>
+                                <include reference="IJV-t8-hfp"/>
+                                <include reference="vB8-lO-aac"/>
+                                <include reference="aXO-iD-tdC"/>
+                                <include reference="ZEI-u6-Q7w"/>
+                                <include reference="EM9-F5-4pO"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="btnDisconnect" destination="EM9-F5-4pO" id="8Fl-LX-fGO"/>
+                        <outlet property="swVisible" destination="IJV-t8-hfp" id="ABA-2W-vwv"/>
+                        <outlet property="tblConnectedDevices" destination="aXO-iD-tdC" id="paE-hX-yo2"/>
+                        <outlet property="txtName" destination="ZjF-VL-hJ8" id="jye-c3-vsc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aOh-mp-7lc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18" y="1045.5"/>
         </scene>
         <!--Game-->
         <scene sceneID="Y61-1M-ORR">
