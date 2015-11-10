@@ -18,6 +18,7 @@
 		78BA73C01BEB52AB0059584D /* RainyWordsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BA73BF1BEB52AB0059584D /* RainyWordsUITests.m */; };
 		78BA73D11BEF24860059584D /* ModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BA73D01BEF24860059584D /* ModeViewController.m */; };
 		78BA73D41BEF2E220059584D /* ClientListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BA73D31BEF2E220059584D /* ClientListViewController.m */; };
+		D95825CB1BF1D4310024FA94 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = D95825CA1BF1D4310024FA94 /* GameView.m */; };
 		D9BC082C1BF0CD7100251DDD /* ConnectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BC082B1BF0CD7100251DDD /* ConnectionsViewController.m */; };
 		D9BC082F1BF0D32000251DDD /* RainyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BC082E1BF0D32000251DDD /* RainyManager.m */; };
 /* End PBXBuildFile section */
@@ -61,6 +62,8 @@
 		78BA73D01BEF24860059584D /* ModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModeViewController.m; sourceTree = "<group>"; };
 		78BA73D21BEF2E220059584D /* ClientListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientListViewController.h; sourceTree = "<group>"; };
 		78BA73D31BEF2E220059584D /* ClientListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientListViewController.m; sourceTree = "<group>"; };
+		D95825C91BF1D4310024FA94 /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		D95825CA1BF1D4310024FA94 /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
 		D9BC082A1BF0CD7100251DDD /* ConnectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionsViewController.h; sourceTree = "<group>"; };
 		D9BC082B1BF0CD7100251DDD /* ConnectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionsViewController.m; sourceTree = "<group>"; };
 		D9BC082D1BF0D32000251DDD /* RainyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainyManager.h; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 			children = (
 				78BA739A1BEB52AB0059584D /* AppDelegate.h */,
 				78BA739B1BEB52AB0059584D /* AppDelegate.m */,
+				D95825C91BF1D4310024FA94 /* GameView.h */,
+				D95825CA1BF1D4310024FA94 /* GameView.m */,
 				78BA739D1BEB52AB0059584D /* ViewController.h */,
 				78BA739E1BEB52AB0059584D /* ViewController.m */,
 				78BA73CF1BEF24860059584D /* ModeViewController.h */,
@@ -300,6 +305,7 @@
 				D9BC082C1BF0CD7100251DDD /* ConnectionsViewController.m in Sources */,
 				78BA739C1BEB52AB0059584D /* AppDelegate.m in Sources */,
 				78BA73991BEB52AB0059584D /* main.m in Sources */,
+				D95825CB1BF1D4310024FA94 /* GameView.m in Sources */,
 				78BA73D41BEF2E220059584D /* ClientListViewController.m in Sources */,
 				D9BC082F1BF0D32000251DDD /* RainyManager.m in Sources */,
 			);

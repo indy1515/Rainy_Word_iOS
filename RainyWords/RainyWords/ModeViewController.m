@@ -48,12 +48,15 @@
 }
 - (void) onClickIntermediateButton:(UIGestureRecognizer *) recognizer{
     NSLog(@"Intermediate button click");
+    [self toConnectionsController:Nil ];
 }
 -(void) onClickHardButton:(UIGestureRecognizer *) recognizer{
     NSLog(@"Hard Button click");
+    [self toConnectionsController:Nil ];
 }
 -(void) onClickCrazyButton:(UIGestureRecognizer *) recognizer{
     NSLog(@"Crazy Button click");
+    [self toConnectionsController:Nil ];
 }
 
 /* - (void)toClientList:(UIGestureRecognizer *)recognizer {
